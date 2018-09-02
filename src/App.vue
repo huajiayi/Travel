@@ -6,6 +6,6 @@
 
 <style lang="scss">
   .iconfont {
-    font-size: 16px;
+    font-size: 32px;
   }
 </style>
