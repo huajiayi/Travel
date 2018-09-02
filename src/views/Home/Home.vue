@@ -43,7 +43,7 @@ export default {
     }
   },
   created () {
-    this.axios.get('Travel/dist/mock/homeData.json').then(res => {
+    this.axios.get('/dist/mock/homeData.json').then(res => {
       let { data } = res
       // $data里的key和json里的key相同，所以这里简化了操作
       Object.keys(this.$data).forEach(key => {
