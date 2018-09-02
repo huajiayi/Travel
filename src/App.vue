@@ -5,5 +5,7 @@
 </template>
 
 <style lang="scss">
-
+  .iconfont {
+    font-size: 16px;
+  }
 </style>
